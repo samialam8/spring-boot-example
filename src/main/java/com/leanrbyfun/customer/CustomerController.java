@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.leanrbyfun.customer.CustomerDataAccessService.customers;
 
 @RestController
 public class CustomerController {

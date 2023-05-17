@@ -1,10 +1,13 @@
 package com.leanrbyfun.customer;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class CustomerDataAccessService implements CustomerDao{
+@Repository
+public class CustomerDataAccessService implements CustomerDao {
 
     private static List<Customer> customers;
 
